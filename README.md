@@ -1,6 +1,7 @@
 # SAR-AIS-Neighbourhood-Integration
 The repository provides code level implementation of Synthetic Aprture Radar (SAR) - Automatic Identification System (AIS) data integration using neighbourhood technique. 
 
+
 ### Flowchart of SAR-AIS Neighbourhood model: 
 
 ![Alt text](Images/Figure_7.jpg?raw=true "Title")
@@ -39,16 +40,21 @@ AIS data is transmitted via Very High Frequency (VHF) signals between ships and 
 
 Data interpolation is done using linear interpolation technique and piecewise hermite interpolation technique. For more details, refer - [link](https://doi.org/10.1016/j.asr.2021.08.042)
 
+Code file name - AIS data correction and interpolation.ipynb
+
 #### Azimuth Correction: 
 
 When estimating target positions, SAR processing system usually assumes targets to be stationary. However, due to the relative motion between the target and SAR system, there is an azimuth shift in the return signals from the target (known as Doppler shift) and the return signal frequency increases when the SAR system approaches the target and decreases when the SAR system moves away from the target.
 
-For more details on application of Azimuth shift, please refer Rees, W.G., 1990. Physical principles of remote sensing. 
+For more details on application of Azimuth shift, please refer Rees, W.G., 1990. Physical principles of remote sensing.
+
+Code file name - Azimuth Shifting.ipynb
 
 #### SAR-AIS Neighbourhood Integration: 
 
 A three-step approach is implemented for integration of SAR and AIS-based ships data: (i) time matching, (ii) position matching, and (iii) size matching. Please refer - [link](https://doi.org/10.1017/S0373463311000749). 
 
+Code file name - SAR - AIS Data Integration.ipynb
 
 #### Disclaimer: 
 
