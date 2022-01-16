@@ -26,7 +26,7 @@ SAR is collected from Sentinel -1 Copernicus Open Access Hub. Please visit - [li
 SAR data specifications: 
 Sentinel1 GRD product in IW mode taken during 11:17:22 to 11:17:47 27/11/2019.
 
-Note: Due to large size of SAR product, I was not able to commit to github. Hence, while cloning this repository, please download following file and place it in your local repository [drive_link](https://drive.google.com/drive/folders/15rErOobNkHM5LApo8Rj6DUntJArSGk-I?usp=sharing).
+Note: Due to large size of SAR product, I was not able to commit data file to github. Hence, while cloning this repository, please download following file in drive link and place it in your local repository [drive_link](https://drive.google.com/drive/folders/15rErOobNkHM5LApo8Rj6DUntJArSGk-I?usp=sharing).
 
 
 #### Data Correction: 
